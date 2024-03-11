@@ -4,13 +4,13 @@
       <nav>
         <div class="left-links">
           <RouterLink id="link" to="/"> HOME |</RouterLink>
-          <RouterLink id="link" to="/login"> LOGIN </RouterLink>
+          <RouterLink id="link" to="/login"> LOGIN |</RouterLink>
+          <RouterLink id="link" to="/script-editor"> SCRIPT EDITOR |</RouterLink>
+          <RouterLink id="link" to="/lobby"> LOBBY </RouterLink>
         </div>
         <div class="right-links">
           <RouterLink id="link" to="/register"> REGISTER |</RouterLink>
           <RouterLink id="link" to="/credits"> CREDITS</RouterLink>
-          <RouterLink id="link" to="/script-editor"> SCRIPT EDITOR |</RouterLink>
-          <RouterLink id="link" to="/lobby"> LOBBY </RouterLink>
         </div>
       </nav>
     </div>
@@ -24,10 +24,9 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <style>
-body{
+body {
   background: linear-gradient(#141e30, #243b55);
   height: 100vh;
-
 }
 
 nav {
