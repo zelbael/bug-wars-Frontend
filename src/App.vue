@@ -9,6 +9,8 @@
         <div class="right-links">
           <RouterLink id="link" to="/register"> REGISTER |</RouterLink>
           <RouterLink id="link" to="/credits"> CREDITS</RouterLink>
+          <RouterLink id="link" to="/script-editor"> SCRIPT EDITOR |</RouterLink>
+          <RouterLink id="link" to="/lobby"> LOBBY </RouterLink>
         </div>
       </nav>
     </div>
